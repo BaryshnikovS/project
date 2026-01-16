@@ -82,7 +82,6 @@ public class StudentArray {
     }
 
     public void initializeWithTestData() {
-        students.clear();
 
         students.add(new Student(1, "Иванов", "Иван", "Иванович",
                 LocalDate.of(2000, 5, 15), "Пушкина", "+79123456789",
